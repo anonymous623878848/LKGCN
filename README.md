@@ -26,7 +26,7 @@ conda env update --name LKGCN --file environment.yml
 ## Training
 ## Quick start please check 
 The instruction of commands has been clearly stated in the [codes](code/parse.py).
-To run the code, we need to download the public datasets into the corresponded data folder [Mindread](dataset/mindreader) or [ML-100k](dataset/mindreader).
+To run the code, we need to download the public datasets into the corresponded data folder [Mindread](dataset/mindreader) or [ML-100k](dataset/ml-100k).
 ```bash
 cd code
 python main.py --decay=1e-4 --lr=0.0001 --layer=3 --seed=2020 --dataset="mindreaderMulti" --topks="[20]" --recdim=64 --model="lgnMultiAtt" --testbatch=256 --bpr_batch=256 --epochs=100 --lbd=0.5 --beta=0.5 --comment="Att" --tensorboard=0
