@@ -42,7 +42,7 @@ python train.py --input-data <path_to_data> --alpha 10 --beta 20
 To evaluate the effectiveness of LKGCN, we conduct experiments on the dataset: [Mindreader](https://mindreader.tech/dataset/) and [ML-100K](https://grouplens.org/datasets/movielens/100k/)
 The key statistics of the datasets are summarised in Table 1.
 <p align="center">
-<img src="fig/datasets.jpg" height=277>
+<img src="fig/datasets.jpg" height=200>
 </p>
 
 <!-- To evaluate my model on ImageNet, run:
